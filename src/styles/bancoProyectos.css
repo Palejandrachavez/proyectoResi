@@ -1,0 +1,192 @@
+.banco-de-proyectos {
+    background-color: var(--body-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banco-de-proyectos .main {
+    width: 56rem;
+    min-height: 100%;
+    min-width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px;
+    background-color: var(--body-color);
+}
+
+.banco-de-proyectos .main-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.banco-de-proyectos .search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    position: relative;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+}
+
+.banco-de-proyectos .search input {
+    font-size: 15px;
+    font-weight: 400;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.banco-de-proyectos .btn-search {
+    background-color: var(--primary-color);
+    color: var(--container-color);
+    transition: var(--transition);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 85px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.banco-de-proyectos .btn-search:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.banco-de-proyectos .filter-wrapper {
+    margin: 1rem 0;
+    font-size: 16px;
+}
+
+.banco-de-proyectos .filter {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    margin: 0.5rem 0;
+}
+
+.banco-de-proyectos .filter-dropdown {
+    background-color: var(--container-color);
+    color: var(--text-first-color);
+    transition: var(--transition);
+    align-items: center;
+    text-align: center;
+    min-width: 110px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    appearance: none;
+    border: 1px solid var(--border-color);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.banco-de-proyectos .filter-dropdown:hover, .banco-de-proyectos .card:hover {
+    background-color: var(--hover-color);
+}
+
+.banco-de-proyectos .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
+}
+
+.banco-de-proyectos .card h3 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-second-color);
+}
+
+.banco-de-proyectos .card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-first-color);
+}
+
+.banco-de-proyectos .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px;
+    background-color: var(--container-color);
+    line-height: 1.5;
+    gap: 1.5rem;
+    border-radius: 8px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.banco-de-proyectos .card-left {
+    width: 10%;
+    min-width: 50px;
+    display: flex;
+    text-align: center;
+    border: 20%;
+    margin-top: 6px;
+}
+
+.banco-de-proyectos .card-left img {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    border-radius: 8px;
+}
+
+.banco-de-proyectos .card .card-loc, .banco-de-proyectos .card-sub p {
+    font-size: 14px;
+    color: var(--text-third-color);
+}
+
+.banco-de-proyectos .card-sub {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -15px;
+}
+
+.banco-de-proyectos .card-sub p {
+    display: flex;
+    padding: 0 1rem 0 0;
+    align-items: center;
+}
+
+.banco-de-proyectos .bx-group, .banco-de-proyectos .bx-list-ul, .banco-de-proyectos .bx-time {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.banco-de-proyectos .bx-search {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.banco-de-proyectos .init-wrapper {
+    position: relative;
+    max-width: 56rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 25px 25px;
+    background-color: var(--container-color);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}

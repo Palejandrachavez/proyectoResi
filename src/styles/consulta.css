@@ -1,0 +1,237 @@
+.consulta {
+    background-color: var(--body-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments {
+    align-items: flex-start;
+}
+
+.consulta .wrapper header {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-second-color);
+}
+
+.consulta .wrapper header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 27px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+}
+
+.consulta .wrapper {
+    position: relative;
+    max-width: 56rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 25px 25px;
+    background-color: var(--container-color);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.consulta .header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: var(--container-color);
+    line-height: 1.5;
+    gap: 1.5rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.consulta .header-left {
+    width: 10%;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    border: 20%;
+    border-radius: 8px;
+}
+
+.consulta .header-right {
+    width: 90%;
+}
+
+.consulta .header-left img {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    border-radius: 8px;
+}
+
+.consulta .header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-second-color);
+}
+
+.consulta .header p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-first-color);
+    margin-top: -5px;
+}
+
+.consulta .header button, .consulta form button {
+    color: var(--container-color);
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    max-width: 180px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.consulta .header button:hover, .consulta form button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.consulta .header .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.consulta form {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: -12px;
+    min-height: 100%;
+    background-color: var(--container-color);
+}
+
+.consulta form .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: var(--text-second-color);
+}
+
+.consulta form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.consulta form .fields .input-field {
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.consulta form .fields .input-field2 {
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.consulta form .fields .input-field3 {
+    width: calc(100%);
+}
+
+.consulta form .fields .input-field4 {
+    width: calc(100% / 1.480 - 15px);
+}
+
+.consulta .input-field label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-first-color);
+}
+
+.consulta .input-field input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-second-color);
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
+.consulta .input-field textarea {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-second-color);
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    padding: 10px 15px;
+    height: 136px;
+    margin: 8px 0;
+}
+
+.bx-trash, .bx-detail {
+    margin-top: -1px;
+    font-size: 22px;
+}
+
+.consulta .bx-edit {
+    font-size: 22px;
+}
+
+.consulta .wrapper select {
+    max-width: 180px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: var(--text-first-color);
+    padding: 8px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--container-color);
+    appearance: none;
+    text-align: center;
+}
+
+.consulta .buttons .btnConfirm, .consulta .buttons .btnDelete, .consulta .buttons .btnComments {
+    margin-left: 15px;
+    max-width: 45px;
+    width: 100%;
+}
+
+.consulta .buttons .btnD2 {
+    margin-left: 0px;
+}
+
+.consulta .buttons .btnSubmit {
+    margin-left: 15px;
+}
+
+.consulta .wrapper .statusDropdown-active {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.consulta .wrapper .statusDropdown-active:hover {
+    background-color: var(--hover-color);
+    border-color: var(--primary-color-hover);
+}

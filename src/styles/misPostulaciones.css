@@ -1,0 +1,222 @@
+.mis-solicitudes, .mis-postulaciones, .mis-proyectos, .mis-candidatos, .mis-revisiones {
+    background-color: var(--body-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mis-postulaciones .init-wrapper, .mis-proyectos .init-wrapper, .mis-candidatos .init-wrapper, .mis-revisiones .init-wrapper {
+    position: relative;
+    max-width: 56rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 25px 25px;
+    background-color: var(--container-color);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+.mis-solicitudes .wrapper, .mis-postulaciones .wrapper, .mis-proyectos .wrapper, .mis-candidatos .wrapper, .mis-revisiones .wrapper {
+    width: 56rem;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px;
+    gap: 1rem;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.mis-solicitudes .card h3, .mis-postulaciones .card h3, .mis-proyectos .card h3, .mis-candidatos h3, .mis-revisiones h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-second-color);
+}
+
+.mis-solicitudes .card p, .mis-postulaciones .card p, .mis-postulaciones .init-wrapper p, .mis-proyectos .init-wrapper p, .mis-candidatos .init-wrapper p, .mis-revisiones p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-first-color);
+}
+
+.mis-solicitudes .card, .mis-postulaciones .card, .mis-proyectos .card, .mis-candidatos .card, .mis-revisiones .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px;
+    background-color: var(--container-color);
+    line-height: 1.5;
+    gap: 1.5rem;
+    border-radius: 8px;
+}
+
+.mis-solicitudes .card-center-request {
+    width: 100%;
+}
+
+.mis-postulaciones .card-left, .mis-proyectos .card-left, .mis-candidatos .card-left, .mis-revisiones .card-left {
+    width: 10%;
+    min-width: 50px;
+    display: flex;
+    text-align: center;
+    border: 20%;
+    margin-top: 3px;
+}
+
+.mis-postulaciones .card-right, .mis-proyectos .card-right, .mis-candidatos .card-right, .mis-revisiones .card-right {
+    width: 90%;
+}
+
+.mis-postulaciones .card-left img, .mis-proyectos .card-left img, .mis-candidatos .card-left img, .mis-revisiones .card-left img {
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    border-radius: 8px;
+}
+
+.bx-trash, .bx-detail {
+    margin-top: -1px;
+    font-size: 22px;
+}
+
+.bxs-user-check {
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+.bx-edit {
+    margin-left: -1px;
+    font-size: 21px;
+}
+
+.mis-solicitudes .wrapper .select, .mis-postulaciones .wrapper .select, .mis-proyectos .wrapper .select, .mis-revisiones .wrapper .select {
+    max-width: 180px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: var(--text-first-color);
+    padding: 8px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--container-color);
+    appearance: none;
+    text-align: center;
+}
+
+.mis-solicitudes .wrapper .button, .mis-postulaciones .wrapper .button, .mis-proyectos .wrapper .button, .mis-candidatos .wrapper .button, .mis-revisiones .wrapper .button {
+    background-color: var(--primary-color);
+    color: var(--container-color);
+    transition: var(--transition);
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    max-width: 180px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.mis-solicitudes .wrapper .button:hover, .mis-postulaciones .wrapper .button:hover, .mis-proyectos .wrapper .button:hover, .mis-candidatos .wrapper .button:hover, .mis-revisiones .wrapper .button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.mis-solicitudes .buttons, .mis-postulaciones .buttons, .mis-proyectos .buttons, .mis-candidatos .buttons, .mis-revisiones .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.buttonsRequest {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.buttons .btnDetails {
+    margin-right: 15px;
+}
+
+.mis-postulaciones .buttons .btnConfirm, .mis-postulaciones .buttons .btnDelete, .mis-proyectos .buttons .btnDelete, .mis-proyectos .buttons .btnComments, .mis-revisiones .buttons .btnComments {
+    margin-left: 15px;
+    max-width: 45px;
+    width: 100%;
+}
+
+.mis-proyectos .buttons .btnD2 {
+    margin-left: 0px;
+}
+
+.mis-revisiones .wrapper .statusDropdown-active, .mis-solicitudes .wrapper .projectDropdown {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.mis-revisiones .wrapper .statusDropdown-active:hover, .mis-solicitudes .wrapper .projectDropdown:hover {
+    background-color: var(--hover-color);
+    border-color: var(--primary-color-hover);
+}
+
+.mis-proyectos .buttons .btnAdd {
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    height: 45px;
+    max-width: 40px;
+    width: 100%;
+}
+
+.mis-proyectos .buttons .btnAdd:hover {
+    background-color: transparent;
+}
+
+.bx-plus-circle {
+    font-size: 45px;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.bx-plus-circle:hover {
+    color: var(--primary-color-hover);
+}
+
+.mis-solicitudes .wrapper .projectDropdown {
+    text-align: left;
+    max-width: 100%;
+    width: 100%;
+}
+
+.mis-solicitudes .request {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    position: relative;
+}
+
+.mis-candidatos .card .title::before, .mis-solicitudes .card .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 27px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+}
+
+.mis-solicitudes .card-details-request {
+    margin-top: 20px;
+}

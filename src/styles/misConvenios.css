@@ -1,0 +1,145 @@
+.mis-convenios, .mis-solicitudes-coo, .consulta {
+    background-color: var(--body-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mis-convenios .table-container, .mis-solicitudes-coo .table-container, .consulta .table-container {
+    position: relative;
+    max-width: 56rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 25px 25px;
+    background-color: var(--container-color);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mis-convenios .table-container header, .mis-solicitudes-coo .table-container header, .consulta .table-container header {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-second-color);
+}
+
+.mis-convenios .table-container header::before, .mis-solicitudes-coo .table-container header::before, .consulta .table-container header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+}
+
+.mis-convenios .table, .mis-solicitudes-coo .table, .consulta .table {
+    border-collapse: collapse;
+}
+
+.mis-convenios .table thead tr th, .mis-solicitudes-coo .table thead tr th, .consulta .table thead tr th {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--container-color);
+    background-color: var(--primary-color);
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.mis-convenios .table tbody td, .mis-solicitudes-coo .table tbody td, .consulta .table tbody td {
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mis-convenios .table td img, .mis-solicitudes-coo .table td img, .consulta .table td img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.mis-convenios .table a, .mis-solicitudes-coo .table a, .consulta .table a {
+    background-color: var(--primary-color);
+    color: var(--container-color);
+    transition: var(--transition);
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    line-height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.mis-convenios .table a:hover, .mis-solicitudes-coo .table a:hover, .consulta .table a:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.mis-convenios .table select, .mis-solicitudes-coo .table select, .consulta .table select {
+    background-color: var(--container-color);
+    color: var(--text-first-color);
+    align-items: center;
+    justify-content: center;
+    max-width: 175px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 0px 8px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    appearance: none;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.mis-convenios .table select:hover, .mis-solicitudes-coo .table select:hover, .consulta .table select:hover {
+    background-color: var(--hover-color);
+    border: 1px solid var(--primary-color-hover);
+}
+
+.mis-convenios .bx-info-circle, .mis-solicitudes-coo .bx-info-circle {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.mis-convenios .init-wrapper, .mis-solicitudes-coo .init-wrapper, .consulta .init-wrapper {
+    position: relative;
+    max-width: 56rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 25px 25px;
+    background-color: var(--container-color);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+    .mis-convenios .table thead, .mis-solicitudes-coo .table thead, .consulta .table thead {
+        display: none;
+    }
+    .mis-convenios .table, .mis-convenios .table tbody, .mis-convenios .table tr, .mis-convenios .table td, .mis-convenios .table a {
+        display: block;
+        width: 100%;
+    }
+    .mis-solicitudes-coo .table, .mis-solicitudes-coo .table tbody, .mis-solicitudes-coo .table tr, .mis-solicitudes-coo .table td, .mis-solicitudes-coo .table a {
+        display: block;
+        width: 100%;
+    }
+    .consulta .table, .consulta .table tbody, .consulta .table tr, .consulta .table td, .consulta .table a {
+        display: block;
+        width: 100%;
+    }
+}

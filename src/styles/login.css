@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-color: #E4E9F7;
+    --container-color: #FFFFFF;
+    --primary-color: #695CFE;
+    --primary-color-hover: #5247CC;
+    --primary-color-light: #F6F5FF;
+    --secondary-color: #DDDDDD;
+    --text-first-color: #2E2E2E;
+    --text-second-color: #333;
+    --text-third-color: #707070;
+    --border-color: #AAAAAA;
+    --transition: all 0.3s linear;
+}
+
+body {
+    background-color: var(--body-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: var(--container-color);
+    width: 26rem;
+    margin: 25px 25px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper img {
+    height: 6rem;
+}
+
+.nav-pills .nav-item .nav-link {
+    color: var(--primary-color);
+    transition: var(--transition);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.nav-pills .nav-item .nav-link:hover {
+    background-color: var(--primary-color);
+    color: var(--container-color);
+}
+
+.nav-pills .nav-item .active {
+    background-color: var(--primary-color);
+    color: var(--container-color);
+}
+
+.nav-pills .nav-item .active:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.input-group input {
+    color: var(--text-second-color);
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    padding: 0 15px;
+    height: 42px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input-group input:focus {
+    border: 2px solid;
+    border-color: var(--primary-color);
+}
+
+form .btnLogin, form .btnSignIn, form .btnVerify {
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    color: var(--container-color);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+
+form .btnLogin:hover, form .btnSignIn:hover, form .btnVerify:hover {
+    background-color: var(--primary-color-hover);
+}
+
+form .buttons, form p {
+    font-size: 15px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+form .custom-link {
+    font-weight: 700;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+form .custom-link:hover {
+    color: var(--primary-color-hover);
+}
