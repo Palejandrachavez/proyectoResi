@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <login-alumno/>
+    <router-view/>
   </div>
 </template>
 
