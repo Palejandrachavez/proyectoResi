@@ -44,7 +44,7 @@
         this.$router.replace('/login-empresa');
       },
       registroStudents() {
-        this.$router.push('/menu-alumno');
+        this.$router.replace('/menu-alumno');
       }
     }
   }

@@ -14,6 +14,7 @@ const routes = [
     name: 'mis-datos',
     component: () => import(/* webpackChunkName: "mis-datos" */ '../views/A-MisDatosView.vue')
   },
+  
   {
     path: '/mis-solicitudes',
     name: 'mis-solicitudes',
