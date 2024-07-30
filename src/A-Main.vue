@@ -3,9 +3,10 @@
     <nav class = "sidebar">
       <header>
         <div class = "image-text">
-          <span class = "picture"> <img src = "@/assets/miFoto.jpeg" alt = "profile-picture"> </span>
+          <span class = "picture"> 
+            <img src = "../src/assets/alex.jpg" alt = "profile-picture"> </span>
           <div class = "text header-text">
-            <span class = "name"> Leonardo Francisco </span>
+            <span class = "name"> Paz Chavez</span>
           </div>
         </div>
       </header>
@@ -63,6 +64,6 @@
   </div>
 </template>
 
-<style>
-  @import '@/styles/root.css';
+<style scoped>
+  @import '../src/styles/root.css';
 </style>

@@ -7,5 +7,5 @@
 </template>
 
 <style scoped>
-  @import '@/styles/inicio.css';
+  @import '../styles/inicio.css';
 </style>

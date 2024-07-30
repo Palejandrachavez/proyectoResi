@@ -12,9 +12,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "login-alumno" */ '../components/Login-Alumno.vue')
   },
   {
-    path: '/registro-alumno',
-    name: 'registro-alumno',
-    component: () => import(/* webpackChunkName: "registro-alumno" */ '../components/Registro-Alumno.vue')
+    path: '/menu-alumno',
+    name: 'menualumno',
+    component: () => import(/* webpackChunkName: "registro-alumno" */ '../A-Main.vue')
   },
   {
     path: '/login-personal',

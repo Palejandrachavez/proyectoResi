@@ -1,7 +1,7 @@
 <template>
         <div class = "wrapper card">
       <div class = "d-flex justify-content-center">
-        <img src = "assets/Logo-ITM.png" alt = "logo-itm" class = "max-w-full">
+        <img src = "../assets/logo-itm.png" alt = "logo-itm" class = "max-w-full">
       </div>
       <ul class = "nav nav-pills">
         <li class = "nav-item me-1">
@@ -44,12 +44,12 @@
         this.$router.replace('/login-empresa');
       },
       registroStudents() {
-        this.$router.push('/registro-alumno');
+        this.$router.push('/menu-alumno');
       }
     }
   }
 </script>
 
 <style scoped>
-  @import '@/styles/login.css';
+  @import '../styles/login.css';
 </style>

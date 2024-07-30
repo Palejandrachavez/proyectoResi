@@ -96,5 +96,5 @@
 </script>
 
 <style scoped>
-  @import '@/styles/registro.css';
+  @import '../styles/registro.css';
 </style>
