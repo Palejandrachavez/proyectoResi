@@ -1,187 +1,187 @@
 .mis-datos {
-    background-color: var(--body-color);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--body-color);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mis-datos .wrapper {
-    position: relative;
-    max-width: 56rem;
-    width: 100%;
-    border-radius: 8px;
-    padding: 30px;
-    margin: 25px 25px;
-    background-color: var(--container-color);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
+  position: relative;
+  max-width: 56rem;
+  width: 100%;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 25px 25px;
+  background-color: var(--container-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .mis-datos .wrapper header {
-    position: relative;
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--text-second-color);
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-second-color);
 }
 
 .mis-datos .wrapper header::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 3px;
-    width: 27px;
-    border-radius: 6px;
-    background-color: var(--primary-color);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  width: 27px;
+  border-radius: 6px;
+  background-color: var(--primary-color);
 }
 
 .mis-datos .wrapper form {
-    position: relative;
-    margin-top: 15px;
-    min-height: 490px;
-    background-color: var(--container-color);
+  position: relative;
+  margin-top: 15px;
+  min-height: 490px;
+  background-color: var(--container-color);
 }
 
 .mis-datos .wrapper form .title {
-    display: block;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 6px 0;
-    color: var(--text-second-color);
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 6px 0;
+  color: var(--text-second-color);
 }
 
 .mis-datos .wrapper form .fields {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .mis-datos .wrapper form .fields .input-field {
-    display: flex;
-    width: calc(100% / 3 - 15px);
-    flex-direction: column;
-    margin: 4px 0;
+  display: flex;
+  width: calc(100% / 3 - 15px);
+  flex-direction: column;
+  margin: 4px 0;
 }
 
 .mis-datos .wrapper form .fields2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .mis-datos .wrapper form .fields2 .input-field {
-    display: flex;
-    width: calc(100% / 3 - 15px);
-    flex-direction: column;
-    margin: 4px 0;
+  display: flex;
+  width: calc(100% / 3 - 15px);
+  flex-direction: column;
+  margin: 4px 0;
 }
 
 .mis-datos .wrapper form .fields2 .input-field2 {
-    display: flex;
-    width: calc(100% / 1.479 - 15px);
-    flex-direction: column;
-    margin: 4px 0;
+  display: flex;
+  width: calc(100% / 1.479 - 15px);
+  flex-direction: column;
+  margin: 4px 0;
 }
 
 .mis-datos .input-field label {
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--text-first-color);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-first-color);
 }
 
 .mis-datos .input-field input {
-    outline: none;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--text-second-color);
-    border-radius: 5px;
-    border: 1px solid var(--border-color);
-    padding: 0 15px;
-    height: 42px;
-    margin: 8px 0;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-second-color);
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  padding: 0 15px;
+  height: 42px;
+  margin: 8px 0;
 }
 
 .mis-datos .input-field input:focus {
-    border: 2px solid;
-    border-color: var(--primary-color);
+  border: 2px solid;
+  border-color: var(--primary-color);
 }
 
 .mis-datos form .button {
-    color: var(--container-color);
-    background-color: var(--primary-color);
-    transition: var(--transition);
-    height: 40px;
-    max-width: 180px;
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    margin: 25px 0;
-    cursor: pointer;
+  color: var(--container-color);
+  background-color: var(--primary-color);
+  transition: var(--transition);
+  height: 40px;
+  max-width: 180px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin: 25px 0;
+  cursor: pointer;
 }
 
 .mis-datos form .button:hover {
-    background-color: var(--primary-color-hover);
+  background-color: var(--primary-color-hover);
 }
 
 .mis-datos form .buttons {
-    font-size: 15px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    margin-bottom: -15px;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: -15px;
 }
 
 .mis-datos form .buttons .custom-link {
-    margin-right: 30px;
-    font-weight: 700;
-    color: var(--primary-color);
-    transition: var(--transition);
-    cursor: pointer;
+  margin-right: 30px;
+  font-weight: 700;
+  color: var(--primary-color);
+  transition: var(--transition);
+  cursor: pointer;
 }
 
 .mis-datos form .custom-link:hover {
-    color: var(--primary-color-hover);
+  color: var(--primary-color-hover);
 }
 
 .mis-datos form .buttons .btnEdit {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .mis-datos form .image {
-    margin-top: 18px;
-    max-width: 150px;
-    max-height: 150px;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-    padding: 3px;
-    border: 2px solid var(--secondary-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--transition);
-    cursor: pointer;
- }
+  margin-top: 18px;
+  max-width: 150px;
+  max-height: 150px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  padding: 3px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  cursor: pointer;
+}
 
 .mis-datos form .image:hover {
-    border-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .form img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-} 
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
 
 .mis-datos form .init-img {
-    width: 30%;
-    height: 30%;
-    border-radius: 0%;
+  width: 30%;
+  height: 30%;
+  border-radius: 0%;
 }

@@ -28,7 +28,7 @@
       <div @click = "verProyecto" class = "wrapper">
         <div class = "card">
           <div class = "card-left">
-            <span> <img src = "@/assets/logo-itm.png" alt = "company-logo"> </span>
+            <span> <img src = "../assets/logo-itm.png" alt = "company-logo"> </span>
           </div>
           <div class = "card-center">
             <h3> Gestión de Proyectos y Convenios para Residencias Profesionales </h3>

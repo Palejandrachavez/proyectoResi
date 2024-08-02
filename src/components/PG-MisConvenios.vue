@@ -20,7 +20,7 @@
         </thead>
         <tbody>
           <tr>
-            <td data-label = "Picture"> <img src = "assets/Logo-ITM.png"> </td>
+            <td data-label = "Picture"> <img src = "../assets/Logo-ITM.png"> </td>
             <td data-label = "Company Name"> Instituto Tecnológico de Mexicali </td>
             <td data-label = "Phone Number"> 686 580-4980 </td>
             <td data-label = "E-Mail"> direccion@itmexicali.edu.mx </td>

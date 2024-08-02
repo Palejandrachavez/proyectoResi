@@ -90,7 +90,12 @@
     </div>
   </div>
 </template>
-
+<script>
+  export default {
+    name: 'MisDatos',
+  
+  }
+</script>
 <style scoped>
   @import '../styles/registro.css';
 </style>
