@@ -31,5 +31,5 @@
 </script>
 
 <style scoped>
-  @import '@/styles/misPostulaciones.css';
+  @import '../styles/misPostulaciones.css';
 </style>

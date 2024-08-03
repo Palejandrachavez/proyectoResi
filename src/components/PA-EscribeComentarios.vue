@@ -3,7 +3,7 @@
     <div class = "wrapper card">
       <div class = "header">
         <div class = "header-left">
-          <span> <img src = "@/assets/logo-itm.png"> </span>
+          <span> <img src = "../assets/logo-itm.png"> </span>
         </div>
         <div class = "header-center">
           <h3> Gestión de Proyectos y Convenios para Residencias Profesionales </h3>
@@ -30,5 +30,5 @@
 </template>
 
 <style scoped>
-  @import '@/styles/consulta.css';
+  @import '../styles/consulta.css';
 </style>

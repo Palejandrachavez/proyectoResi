@@ -3,7 +3,7 @@
     <nav class = "sidebar">
       <header>
         <div class = "image-text">
-          <span class = "picture"> <img src = "@/assets/coordinacion.png" alt = "profile-picture"> </span>
+          <span class = "picture"> <img src = "../src/assets/coordinacion.png" alt = "profile-picture"> </span>
           <div class = "text header-text">
             <span class = "name"> Coordinación de Sistemas Computacionales </span>
           </div>
@@ -13,7 +13,7 @@
         <div class = "menu mt-4">
           <li class = "search-box">
             <a class = "itm-link" href = "http://www.itmexicali.edu.mx/" target = "_blank">
-              <span class = "logo"> <img class = "logo-tec" src = "@/assets/logo-itm.png" alt = "logo-itm"> </span>
+              <span class = "logo"> <img class = "logo-tec" src = "../src/assets/logo-itm.png" alt = "logo-itm"> </span>
             </a>
           </li>
           <li class = "nav-link">
@@ -58,5 +58,5 @@
 </template>
 
 <style>
-  @import '@/styles/root.css';
+  @import '../src/styles/root.css';
 </style>

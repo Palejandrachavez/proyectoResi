@@ -37,7 +37,7 @@
             <div class = "card-sub">
               <p> <i class = 'bx bx-group'> </i> 2 vacantes </p>
               <p> <i class = 'bx bx-list-ul'> </i> Ingeniería en Sistemas Computacionales </p>
-              <p> <i class = 'bx bx-time'> </i> AGOSTO 2023 - DICIEMBRE 2023 </p>
+              <p> <i class = 'bx bx-time'> </i> Abril 2024 - Agosto 2024 </p>
             </div>
           </div>
         </div>
@@ -59,5 +59,5 @@
 </script>
 
 <style scoped>
-  @import '@/styles/bancoProyectos.css';
+  @import '../styles/bancoProyectos.css';
 </style>

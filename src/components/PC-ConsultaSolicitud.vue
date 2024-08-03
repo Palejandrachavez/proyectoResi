@@ -162,5 +162,5 @@
 </template>
 
 <style scoped>
-  @import '@/styles/consulta.css';
+  @import '../styles/consulta.css';
 </style>

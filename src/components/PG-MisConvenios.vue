@@ -24,7 +24,7 @@
             <td data-label = "Company Name"> Instituto Tecnológico de Mexicali </td>
             <td data-label = "Phone Number"> 686 580-4980 </td>
             <td data-label = "E-Mail"> direccion@itmexicali.edu.mx </td>
-            <td data-label = "Date"> 2023 </td>
+            <td data-label = "Date"> 2024 </td>
             <td data-label = "Actions"> <a ref = "#" class = "btnVer"> <i class = 'bx bx-info-circle'> </i> </a> </td>
           </tr>
         </tbody>
@@ -35,5 +35,5 @@
 </template>
 
 <style scoped>
-  @import '@/styles/misConvenios.css';
+  @import '../styles/misConvenios.css';
 </style>

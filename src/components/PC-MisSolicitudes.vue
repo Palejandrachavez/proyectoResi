@@ -19,10 +19,10 @@
         </thead>
         <tbody>
           <tr>
-            <td data-label = "Picture"> <img src = "@/assets/user-profile.png"> </td>
-            <td data-label = "Student Name"> Aguilar Figueroa Leonardo Francisco </td>
+            <td data-label = "Picture"> <img src = "../assets/Alex.pjg"> </td>
+            <td data-label = "Student Name"> Chavez Ruiz Paz Alejandra </td>
             <td data-label = "Company Name"> Instituto Tecnológico de Mexicali </td>
-            <td data-label = "Date"> AGOSTO - DICIEMBRE 2023 </td>
+            <td data-label = "Date"> ABRIL - AGOSTO 2024 </td>
             <td data-label = "Actions"> <a @click = "verSolicitud" class = "btnVer"> <i class = 'bx bx-info-circle'> </i> </a> </td>
           </tr>
         </tbody>
@@ -44,5 +44,5 @@
 </script>
 
 <style scoped>
-  @import '@/styles/misConvenios.css';
+  @import '../styles/misConvenios.css';
 </style>

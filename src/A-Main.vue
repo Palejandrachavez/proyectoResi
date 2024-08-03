@@ -35,7 +35,7 @@
             </router-link>
           </li>
           <li class="nav-link">
-            <router-link to="/mis-datos">
+            <router-link to="mis-datos">
               <i class="bx bx-user-circle icon"> </i>
               <span class="text nav-text"> Mis datos </span>
             </router-link>

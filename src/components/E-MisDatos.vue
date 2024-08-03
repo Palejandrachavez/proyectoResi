@@ -5,7 +5,7 @@
       <form class = "form" action = "#">
         <div class = "d-flex justify-content-center">
           <div id = "profile-picture" class = "image text-center">
-            <span class = "picture"> <img class = "init-img" src = "@/assets/camera.png" alt = "profile-picture"> </span>
+            <span class = "picture"> <img class = "init-img" src = "../assets/camera.png" alt = "profile-picture"> </span>
           </div>
         </div>
         <div class = "account-details">
@@ -112,5 +112,5 @@
 </template>
 
 <style scoped>
-  @import '@/styles/registro.css';
+  @import '../styles/registro.css';
 </style>

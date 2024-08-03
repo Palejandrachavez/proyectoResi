@@ -48,5 +48,5 @@
 </script>
 
 <style scoped>
-  @import '@/styles/login.css';
+  @import '../styles/login.css';
 </style>

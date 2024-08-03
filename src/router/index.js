@@ -20,12 +20,7 @@ const routes = [
       import(/* webpackChunkName: "menu-alumno" */ "../A-Main.vue"),
   
     children: [
-      {
-        path: "/",
-        name: "inicio",
-        component: () =>
-          import(/* webpackChunkName: "inicio" */ "../views/Z-InicioView.vue"),
-      },
+   
       {
         path: "/mis-datos",
         name: "mis-datos",
